@@ -1,0 +1,97 @@
+.auth-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #5222ac
+}
+
+.auth-box {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box h2 {
+  margin: 0 0 0.25rem 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #1c1c1e;
+}
+
+.subtitle {
+  text-align: center;
+  color: #7a7a7a;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.auth-box label {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.auth-box input[type="email"],
+.auth-box input[type="password"],
+.auth-box input[type="text"] {
+  padding: 0.65rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+.auth-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.auth-options label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.forgot-link , .register-link {
+  color: #4a4ae6;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.forgot-link:hover , .register-link:hover {
+  text-decoration: underline;
+}
+
+.auth-box button {
+  background-color: #4a4ae6;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-box button:hover {
+  background-color: #3737d4;
+}
+
+.demo-note {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #777;
+}
